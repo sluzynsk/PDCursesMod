@@ -45,3 +45,4 @@ wincon/*.def
 m
 .vscode
 build
+.idea

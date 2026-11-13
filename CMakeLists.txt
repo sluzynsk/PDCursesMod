@@ -53,6 +53,9 @@ elseif(PDC_X11_BUILD)
     # set(PDC_WIDE ON)
     add_subdirectory(x11new)
 
+elseif(PDC_LVGL_BUILD) # currently requires a unique toolchain file
+    add_subdirectory(lvgl)
+
 else()
 
     add_subdirectory(ncurses)
